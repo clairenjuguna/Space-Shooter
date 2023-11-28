@@ -30,8 +30,9 @@ POWER_UP_IMG = pygame.image.load(os.path.join("assets", "power_up.png"))
 
 BG = pygame.transform.scale(pygame.image.load(os.path.join("assets", "background-black.jpg")), (WIDTH, HEIGHT))
 
-pygame.mixer.music.load("C:/Users/Laptop/Downloads/mixkit-game-level-music-689.wav")
-laser_sound = pygame.mixer.Sound("C:/Users/Laptop/Downloads/mixkit-sci-fi-laser-in-space-sound-2825.wav")
+
+pygame.mixer.music.load(os.path.join("assets", "background_music.wav"))
+laser_sound = pygame.mixer.Sound(os.path.join("assets", "laser_sound.wav"))
 
 pygame.mixer.music.play(-1)
 
