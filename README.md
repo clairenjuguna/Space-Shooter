@@ -3,6 +3,9 @@
 ## Introduction
 Welcome to the Space Shooter Game project! This is a simple space-themed shooting game developed in [programming language/engine of your choice]. The game is designed to provide an engaging and entertaining experience for players who enjoy space-based action.
 
+## Adding Lives
+
+In this section, we'll guide you through the process of adding lives to the game.
 ## Features
 - Intuitive controls for spacecraft movement and shooting.
 - Enemy spaceships with different behaviors and difficulty levels.
