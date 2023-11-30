@@ -30,6 +30,7 @@ POWER_UP_IMG = pygame.image.load(os.path.join("assets", "power_up.png"))
 
 BG = pygame.transform.scale(pygame.image.load(os.path.join("assets", "background-black.jpg")), (WIDTH, HEIGHT))
 
+#space shooter game
 
 pygame.mixer.music.load(os.path.join("assets", "background_music.wav"))
 laser_sound = pygame.mixer.Sound(os.path.join("assets", "laser_sound.wav"))
